@@ -22,21 +22,33 @@ There may or may not be whitespace between numbers and operators.
 An addition to this rule is that the minus sign (-) used for negating numbers and parentheses will never be separated by whitespace. I.e all of the following are valid expressions.
 
 1-1    = 0
+
 1 -1   = 0
+
 1- 1   = 0
+
 1 - 1  = 0
+
 1- -1  = 2
+
 1 - -1 = 2
+
 1--1   = 2
 
 6 + -(4)   = 2
+
 6 + -( -4) = 10
+
 And the following are invalid expressions
 
 1 - - 1    - Invalid
+
 1- - 1     - Invalid
+
 6 + - (4)  - Invalid
+
 6 + -(- 4) - Invalid
+
 
 Validation
 You do not need to worry about validation - you will only receive valid mathematical expressions following the above rules.
